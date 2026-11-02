@@ -1,0 +1,78 @@
+.sidebar {
+  width: 260px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 1.75rem;
+  background-color: #faf6ee;
+  border-right: 1px solid #e6dcc7;
+  font-family: Georgia, "Times New Roman", serif;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.sidebar-brand {
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #c9a24d;
+  text-align: center;
+}
+
+.sidebar-eyebrow {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #a6803a;
+  margin-bottom: 0.4rem;
+}
+
+.sidebar-title {
+  margin: 0;
+  font-size: 1.9rem;
+  font-style: italic;
+  color: #3b2a20;
+}
+
+.sidebar-links {
+  gap: 0.25rem;
+}
+
+.sidebar .sidebar-link {
+  padding: 0.75rem 1rem;
+  border-radius: 0;
+  border-left: 3px solid transparent;
+  color: #4a3a2e;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  transition: all 0.2s ease;
+}
+
+.sidebar .sidebar-link:hover {
+  color: #8c1c13;
+  background-color: #f1e8d4;
+  border-left-color: #c9a24d;
+  padding-left: 1.4rem;
+}
+
+.sidebar .sidebar-link.active {
+  color: #8c1c13;
+  background-color: #f1e8d4;
+  border-left-color: #8c1c13;
+  font-weight: 600;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e6dcc7;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #7a6a5a;
+}
+
+.sidebar-footer p {
+  margin: 0 0 0.25rem;
+}
